@@ -1,0 +1,13 @@
+.multi-player-link{
+    color: green;
+    /* background-color:#cc4949 ; */
+}
+.multi-player-button{
+background-color: teal;
+color: white;
+border: none;
+border-radius: 5%;
+}
+.error-style, .name-game{
+    color: #cc4949
+}

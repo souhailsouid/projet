@@ -1,0 +1,8 @@
+.error-input{
+    border: 1px solid red !important;
+    color: red;
+    background-color: red;
+}
+.validation-style{
+    color: #cc4949
+}

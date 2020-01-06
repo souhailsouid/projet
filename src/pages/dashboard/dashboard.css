@@ -1,0 +1,53 @@
+.link-create,
+.link-create:hover,
+.link-exit,
+.link-exit:hover {
+  color: white;
+
+}
+
+.img-exit {
+  width: 2%;
+}
+
+.exit-style {
+  background-color: green;
+}
+
+.create-style {
+  background-color: violet;
+
+}
+
+.online-game,
+.online-game:hover {
+  background-color: teal;
+  color: white;
+  height: 1.7rem;
+}
+
+.single-game,
+.single-game:hover {
+  background-color: #cc4949;
+  color: white;
+  height: 1.7rem;
+
+}
+
+.single-player-link,
+.single-player-link:hover {
+  color: white;
+}
+
+.section-game-style {
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  align-items: baseline;
+  border: 1px solid black;
+}
+
+.score-style {
+  color: teal;
+  text-decoration: underline;
+}

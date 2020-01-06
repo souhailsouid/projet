@@ -1,0 +1,13 @@
+.home-page-style {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .no-multi-player-game, .no-multi-player-game:hover{
+    background-color: #cc4949;
+    color: white;
+  }
+  .notification-multi-player{
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid  black
+  }

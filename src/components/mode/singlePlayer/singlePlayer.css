@@ -1,0 +1,10 @@
+.single-player-button{
+    color: #cc4949;
+   
+    /* background-color:#cc4949 ; */
+}
+.single-player-button:hover{
+    color: white;
+    background-color: #cc4949;
+    border: 1px solid #cc4949
+}

@@ -1,0 +1,160 @@
+.game-page-style {
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	font: 14px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+}
+
+ol, ul {
+	padding-left: 30px;
+}
+
+.board-row:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.status {
+	margin-bottom: 10px;
+}
+
+.square {
+	background: white;
+	border: 1px solid #111;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 70px;
+  margin: 0;
+  padding: 0;
+	width: 70px;
+	border-radius: 0;
+	/* max-width: 12.5%; */
+}
+
+.square:focus {
+	outline: none;
+}
+
+.kbd-navigation .square:focus {
+	background: #ddd;
+}
+
+.game {
+	display: flex; 
+	flex-direction: row;
+	clear: both;
+}
+
+.game-board {
+	display: inline-block;
+}
+
+.game-left-side {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+.span-style{
+  text-decoration: underline;
+}
+.game-info-point {
+  margin-top: 3rem;
+  align-items: center;
+}
+.piece-white-style{
+  margin:13px;
+  width: 60%;
+}
+.piece-white-dashboard{
+	margin:13px;
+	width: 50%;
+}
+.row1-style {
+
+  align-items: center;
+
+}
+.row2-style {
+
+  text-align: right;
+
+}
+.available-square {
+  cursor: pointer;
+  background-color: grey;
+  opacity: 0.2;
+  border: 1px solid black
+}
+
+.not-available-square {
+  cursor: not-allowed;
+  background-color: thistle;;
+  opacity: 1;
+  border: 1px solid black
+}
+
+.marker {
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+.marker.black {
+	background: #111;
+}
+
+.marker.white {
+	background: #eee;
+	border: 1px solid #111;
+}
+
+
+.text-position{
+  text-align: center;
+
+}
+.button-style{
+background-color: #cc4949;
+border-radius: 7%;
+color: white;
+border: 2px solid #cc4949
+}
+.button-game-exit-style{
+	background-color: #cc4949;
+	color: white;
+	border: 1px solid #cc4949;
+	
+}
+.section-button-exit-game{
+
+	text-align: right;
+}
+
+.hide-notification{
+	display: none;
+}
+.section-notification{
+	height: 6rem
+}
+.title-game{
+	color: #cc4949;
+}
+.name-game-style{
+	text-decoration: underline;
+	color: yellowgreen;
+	
+}

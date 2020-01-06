@@ -1,0 +1,11 @@
+.sign-up-style {
+
+  border: 1px solid grey;
+  padding: 2rem;
+  text-decoration: underline;
+}
+
+.button-creation-style {
+  background-color: teal;
+  color: white;
+}
