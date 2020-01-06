@@ -30,5 +30,15 @@ Pas de test disponible dans l'application.
 
 Lance le linter.
 ### ATTENTION `Cote serveur
-Veuillez vous rendre à l'url suivante https://github.com/souhailsouid/othello-back
+veuillez vous rendre au dossier server
+<br/>
+puis faire un npm install
+ <br/>
+ensuite créer un .env à la racine du dossier server <br/>
+Puis ajouter  l'exemple: <br/>
+MONGODB_URI="mongodb+srv://souhail:souhail@cluster0-dryle.mongodb.net/test?retryWrites=true&w=majority"<br/>
+Vous pouvez bien entendu modifier le lien"" dans MONGODB_URI=""
+<br/>
+lancer demarrage du server avec npm start
+
 
